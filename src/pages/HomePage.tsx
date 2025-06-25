@@ -1,5 +1,5 @@
 // src/pages/HomePage.tsx
-import './HomePage.css'; // Vamos criar este arquivo para estilizar
+import './HomePage.css';
 
 function HomePage() {
   return (

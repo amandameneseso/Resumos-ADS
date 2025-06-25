@@ -1,5 +1,4 @@
 // src/components/Sidebar.tsx
-
 import { NavLink } from "react-router-dom";
 import { studyData } from "../data";
 
@@ -7,7 +6,6 @@ function Sidebar() {
   const subjects = Object.keys(studyData);
 
   return (
-    // A cor da borda foi atualizada aqui para combinar com o tema azul pastel
     <nav
       style={{
         borderRight: "2px dashed #BEE1FF",

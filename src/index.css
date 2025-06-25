@@ -4,8 +4,6 @@
 
 body {
   margin: 0;
-  /* IMPORTANTE: Você precisará de um novo fundo que combine com azul! */
-  /* Procure por "cute blue pixel seamless background" ou "pixel cloud pattern" */
   background-image: url('./assets/images/starblue.gif');
   background-color: #F0F8FF; /* Cor de fundo atualizada */
   color: #3A4F66; /* Cor de texto principal atualizada */
@@ -48,6 +46,11 @@ h1, h2, h3 {
   text-shadow: none;
   font-family: 'Work Sans', sans-serif;
   font-weight: 700;
+}
+
+h2 {
+  margin-top: 35px;
+  margin-bottom: 20px;
 }
 
 ul {

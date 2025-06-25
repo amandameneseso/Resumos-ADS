@@ -1,17 +1,13 @@
 // src/data.ts
-
-// As interfaces continuam as mesmas, com 'content' sendo uma string
 export interface Lesson { id: number; title: string; summary: string; content: string; }
 export interface Assessment { name: string; date: string; }
 export interface Assignment { name: string; date: string; }
 export interface Book { name: string; author: string; library: string; }
 export interface Subject { name: string; icon: string; lessons: Lesson[]; assessments: Assessment[]; assignments: Assignment[]; books: Book[]; }
 
-// 1. Ferramenta mágica do Vite para importar múltiplos arquivos de uma vez
 // Isso lê todos os arquivos .md dentro de /content/ e seus subdiretórios
 const lessonContents = import.meta.glob('./content/**/*.md', { as: 'raw', eager: true });
 
-// 2. Definimos os metadados das disciplinas, mas SEM o campo 'content' nas aulas
 const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lessons: Omit<Lesson, 'content'>[] }> = {
   "modulo-introdutorio": {
     name: "Módulo Introdutório de Conceitos Básicos de Computação",
@@ -22,9 +18,9 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
       { id: 3, title: "Aula 3: Básico de sistema computacional", summary: "Conceitos básicos de um sistema computacional..." },
       { id: 4, title: "Aula 4: Básico de componentes de hardware", summary: "Conceitos básicos de componentes de hardware..." }
     ],
-    assessments: [],
-    assignments: [],
-    books: []
+    assessments: [{ name: "Nenhuma avaliação disponível", date: "" }],
+    assignments: [{ name: "Nenhum trabalho disponível", date: "" }],
+    books: [{ name: "Nenhuma obra disponível", author: "", library: "" }]
   },
   "fundamentos-software": {
     name: "Fundamentos de Desenvolvimento de Software",
@@ -48,20 +44,17 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
   }
 };
 
-// 3. Processamos os dados para injetar o conteúdo dos arquivos .md
 export const studyData: Record<string, Subject> = Object.entries(subjectsWithoutContent)
   .reduce((acc, [subjectId, subjectData]) => {
     
     const lessonsWithContent = subjectData.lessons.map(lesson => {
-      // Montamos o caminho do arquivo esperado. Ex: ./content/calculo-1/1.md
       const path = `./content/${subjectId}/${lesson.id}.md`;
       
-      // Procuramos o conteúdo no objeto que o Vite nos deu
       const content = lessonContents[path] || "## Conteúdo não encontrado!\n\nVerifique se o arquivo existe em: " + path;
 
       return {
         ...lesson,
-        content // Injetamos o conteúdo lido do arquivo
+        content
       };
     });
 

@@ -1,8 +1,8 @@
 // src/pages/LessonPage.tsx
 import { useParams } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown'; // Importe o componente
+import ReactMarkdown from 'react-markdown';
 import { studyData } from '../data';
-import './LessonPage.css'; // Vamos criar este arquivo para estilizar
+import './LessonPage.css';
 
 function LessonPage() {
   const { subjectId, lessonId } = useParams<{ subjectId: string; lessonId: string }>();
@@ -17,7 +17,6 @@ function LessonPage() {
 
   return (
     <div className="article-content">
-      {/* Usamos o componente ReactMarkdown para renderizar o conteúdo */}
       <ReactMarkdown>
         {lesson.content}
       </ReactMarkdown>

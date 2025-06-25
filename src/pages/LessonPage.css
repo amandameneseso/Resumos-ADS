@@ -1,14 +1,14 @@
 /* src/pages/LessonPage.css */
 .article-content {
-  line-height: 1.7; /* Melhora a legibilidade */
-  font-family: 'Verdana', sans-serif; /* Uma fonte mais legível para texto longo */
+  line-height: 1.7;
+  font-family: 'Verdana', sans-serif;
   font-size: 16px;
 }
 
 .article-content h1,
 .article-content h2,
 .article-content h3 {
-  font-family: 'PixelFont', sans-serif; /* Mantém a fonte do tema nos títulos */
+  font-family: 'PixelFont', sans-serif;
   color: #00FF00;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -29,7 +29,6 @@
   color: #FFFF00; /* Destaque para o texto em negrito */
 }
 
-/* Estilo para blocos de código, se você usar */
 .article-content pre,
 .article-content code {
   font-family: 'Courier New', Courier, monospace;
