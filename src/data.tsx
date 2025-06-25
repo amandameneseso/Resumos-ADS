@@ -26,21 +26,31 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
     name: "Fundamentos de Desenvolvimento de Software",
     icon: "",
     lessons: [
-      { id: 1, title: "Aula 01: Atomística", summary: "Estudo dos átomos e suas partículas..." }
+      { id: 1, title: "Aula 1: Software", summary: "Softwares, programas e sistemas são elementos constantes..." },
+      { id: 2, title: "Aula 2: O profissional de TI e sua atuação", summary: "Desenvolvimento de software..." },
+      { id: 3, title: "Aula 3: Desenvolvimento colaborativo", summary: "Desenvolvimento de sistemas..." },
+      { id: 4, title: "Aula 4: Desenvolvimento de site: HTML", summary: "Desenvolvimento de sistemas..." },
+      { id: 5, title: "Aula 5: Desenvolvimento de site: CSS", summary: "Desenvolvimento de sistemas..." },
+      { id: 6, title: "Aula 6: Desenvolvimento de site: JavaScript", summary: "Desenvolvimento de sistemas..." }
     ],
-    assessments: [{ name: "Prova de Laboratório", date: "30/09/2025" }],
-    assignments: [{ name: "Relatório de Misturas", date: "20/09/2025" }],
-    books: [{ name: "Princípios de Química", author: "Peter Atkins", library: "Biblioteca Central" }]
+    assessments: [{ name: "APOL 1", date: "07/07/2025"}, {name: "APOL 2", date: "07/07/2025" }],
+    assignments: [{ name: "Trabalho Prático 1", date: "07/07/2025" }],
+    books: [{ name: "HTML 5 – Embarque Imediato", author: "FLATSCHART, F.", library: "BV Pearson" }, { name: "Engenharia de Software", author: "PRESSMAN, R., e MAXIM, B.", library: "Minha Biblioteca" }, { name: "Lógica de Programação", author: "FORBELLONE, A. L. V.", library: "BV Pearson" }, { name: "Informática - conceitos e aplicações", author: "MARÇULA, M.", library: "Minha Biblioteca" }, { name: "Engenharia de Software", author: "SOMMERVILLE, I.", library: "BV Pearson" }]
   },
   "fundamentos-sistemas": {
     name: "Fundamentos de Design de Sistemas",
     icon: "",
     lessons: [
-      { id: 1, title: "Aula 01: Atomística", summary: "Estudo dos átomos e suas partículas..." }
+      { id: 1, title: "Aula 1: Linux", summary: "Estudo dos átomos e suas partículas..." },
+      { id: 2, title: "Aula 2: Terminal Linux", summary: "Estudo dos átomos e suas partículas..." },
+      { id: 3, title: "Aula 3: Controle de versionamento de software (Git)", summary: "Estudo dos átomos e suas partículas..." },
+      { id: 4, title: "Aula 4: Arquitetura de Software", summary: "Estudo dos átomos e suas partículas..." },
+      { id: 5, title: "Aula 5: Design Digital 1", summary: "Estudo dos átomos e suas partículas..." },
+      { id: 6, title: "Aula 6: Design Digital 2", summary: "Estudo dos átomos e suas partículas..." }
     ],
-    assessments: [{ name: "Prova de Laboratório", date: "30/09/2025" }],
-    assignments: [{ name: "Relatório de Misturas", date: "20/09/2025" }],
-    books: [{ name: "Princípios de Química", author: "Peter Atkins", library: "Biblioteca Central" }]
+    assessments: [{ name: "APOL 1", date: "07/07/2025"}, {name: "APOL 2", date: "07/07/2025" }],
+    assignments: [{ name: "Nenhum trabalho disponível", date: "" }],
+    books: [{ name: "Arquitetura de Sistemas", author: "ZENKER, Aline M.", library: "" }, {name: "Experiência do usuário (UX)", author: "STATI, Cesar R; SARMENTO, Camila F.", library: "" }, {name: "Começando com o linux: comandos, serviços e administração", author: "", library: "" }]
   }
 };
 
