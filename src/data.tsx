@@ -17,8 +17,10 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
     name: "Módulo Introdutório de Conceitos Básicos de Computação",
     icon: "",
     lessons: [
-      { id: 1, title: "Aula 01: Limites", summary: "Introdução aos conceitos de limites..." },
-      { id: 2, title: "Aula 02: Derivadas", summary: "Definição de derivada e regras básicas..." }
+      { id: 1, title: "Aula 1: Básico de Software", summary: "Introdução aos conceitos de software..." },
+      { id: 2, title: "Aula 2: Básico de web e redes de computadores", summary: "Definição de web e redes..." },
+      { id: 3, title: "Aula 3: Básico de sistema computacional", summary: "Conceitos básicos de um sistema computacional..." },
+      { id: 4, title: "Aula 4: Básico de componentes de hardware", summary: "Conceitos básicos de componentes de hardware..." }
     ],
     assessments: [],
     assignments: [],

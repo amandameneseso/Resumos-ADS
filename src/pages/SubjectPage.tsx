@@ -22,7 +22,6 @@ function SubjectPage() {
 
       <h2> Aulas </h2>
       <div style={{ display: "flex", flexWrap: "wrap", gap: "15px" }}>
-        {/* Modifique esta linha para passar a nova prop 'subjectId' */}
         {subject.lessons.map((lesson) => (
           <LessonCard key={lesson.id} lesson={lesson} subjectId={subjectId!} />
         ))}
