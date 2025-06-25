@@ -24,6 +24,12 @@ function Sidebar() {
           </NavLink>
         </li>
 
+        <li style={{ marginBottom: '15px', marginLeft: '15px', padding: '2px' }}>
+          <NavLink to="/calendario">
+            Calendário
+          </NavLink>
+        </li>
+
         <hr
           style={{
             border: "none",

@@ -5,8 +5,9 @@
 body {
   margin: 0;
   background-image: url('./assets/images/starblue.gif');
-  background-color: #F0F8FF; /* Cor de fundo atualizada */
-  color: #3A4F66; /* Cor de texto principal atualizada */
+  background-attachment: fixed;
+  background-color: #F0F8FF;
+  color: #3A4F66; /* Cor de texto principal */
 
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
@@ -15,7 +16,7 @@ body {
 .main-container {
   max-width: 1000px;
   margin: 25px auto;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #ffffffcc;
   backdrop-filter: blur(4px);
   border: 2px solid #a9d8eb;
   border-radius: 10px;
@@ -30,7 +31,7 @@ main {
 }
 
 a {
-  color: #73cbee; /* Cor do link atualizada para lilás */
+  color: #73cbee;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
