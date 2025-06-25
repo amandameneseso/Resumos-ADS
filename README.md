@@ -4,20 +4,18 @@
 
 Este é um site pessoal criado para ser um repositório dos resumos que fiz enquanto estudo Análise e Desenvolvimento de Sistemas. O projeto foi desenvolvido com React e TypeScript.
 
-**[Ver a demonstração](resumos-ads.vercel.app)**
+**[Ver a demonstração](https://resumos-ads.vercel.app/)**
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 * **Navegação por disciplinas:** Uma sidebar à esquerda permite navegar facilmente entre as diferentes disciplinas do curso.
 * **Resumos de aulas:** Cada aula é apresentada em formato de resumo, com suporte completo a [Markdown](https://www.markdownguide.org/basic-syntax/).
 * **Conteúdo modular:** Os resumos de cada aula são armazenados em arquivos `.md` separados, mantendo o projeto organizado e fácil de atualizar.
 * **Calendário:** Uma página de calendário exibe todas as datas de avaliações e trabalhos de todas as disciplinas, com cores diferentes para cada tipo de evento.
 
----
-
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 * **Framework:** [React](https://reactjs.org/)
 * **Build tool:** [Vite](https://vitejs.dev/)
@@ -28,9 +26,7 @@ Este é um site pessoal criado para ser um repositório dos resumos que fiz enqu
 * **Gerenciador de pacotes:** [Yarn](https://yarnpkg.com/)
 * **Estilização:** CSS puro com variáveis
 
----
-
-## 🚀 Como rodar o projeto localmente
+## Como rodar o projeto localmente
 
 Para rodar este projeto na sua máquina, siga os passos abaixo:
 
@@ -55,8 +51,6 @@ Para rodar este projeto na sua máquina, siga os passos abaixo:
     ```
 
 5.  Abra seu navegador e acesse `http://localhost:5173` (ou o endereço que aparecer no seu terminal).
-
----
 
 ## 📄 Licença
 
