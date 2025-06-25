@@ -6,8 +6,6 @@ Este é um site pessoal criado para ser um repositório dos resumos que fiz enqu
 
 **[Ver a demonstração](https://resumos-ads.vercel.app/)**
 
----
-
 ## Funcionalidades
 
 * **Navegação por disciplinas:** Uma sidebar à esquerda permite navegar facilmente entre as diferentes disciplinas do curso.
@@ -52,6 +50,6 @@ Para rodar este projeto na sua máquina, siga os passos abaixo:
 
 5.  Abra seu navegador e acesse `http://localhost:5173` (ou o endereço que aparecer no seu terminal).
 
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença MIT.
