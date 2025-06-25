@@ -1,69 +1,63 @@
-# React + TypeScript + Vite
+# 📘 Repositório de Estudos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- ![Imagem do Projeto](https://i.imgur.com/w2Y3wXN.png)  -->
 
-Currently, two official plugins are available:
+Este é um site pessoal criado para ser um repositório dos resumos que fiz enquanto estudo Análise e Desenvolvimento de Sistemas. O projeto foi desenvolvido com React e TypeScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**[Ver a demonstração](resumos-ads.vercel.app)**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Funcionalidades
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* **Navegação por disciplinas:** Uma sidebar à esquerda permite navegar facilmente entre as diferentes disciplinas do curso.
+* **Resumos de aulas:** Cada aula é apresentada em formato de resumo, com suporte completo a [Markdown](https://www.markdownguide.org/basic-syntax/).
+* **Conteúdo modular:** Os resumos de cada aula são armazenados em arquivos `.md` separados, mantendo o projeto organizado e fácil de atualizar.
+* **Calendário:** Uma página de calendário exibe todas as datas de avaliações e trabalhos de todas as disciplinas, com cores diferentes para cada tipo de evento.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Tecnologias utilizadas
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+* **Framework:** [React](https://reactjs.org/)
+* **Build tool:** [Vite](https://vitejs.dev/)
+* **Linguagem:** [TypeScript](https://www.typescriptlang.org/)
+* **Roteamento:** [React Router DOM](https://reactrouter.com/)
+* **Renderização de markdown:** [React-Markdown](https://github.com/remarkjs/react-markdown)
+* **Componente de calendário:** [FullCalendar](https://fullcalendar.io/)
+* **Gerenciador de pacotes:** [Yarn](https://yarnpkg.com/)
+* **Estilização:** CSS puro com variáveis
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🚀 Como rodar o projeto localmente
+
+Para rodar este projeto na sua máquina, siga os passos abaixo:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/SEU-USUARIO/NOME-DO-SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-SEU-REPOSITORIO.git)
+    ```
+
+2.  **Navegue até a pasta do projeto:**
+    ```bash
+    cd NOME-DO-SEU-REPOSITORIO
+    ```
+
+3.  **Instale as dependências:**
+    ```bash
+    yarn install
+    ```
+
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    yarn dev
+    ```
+
+5.  Abra seu navegador e acesse `http://localhost:5173` (ou o endereço que aparecer no seu terminal).
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
