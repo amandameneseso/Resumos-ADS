@@ -1,0 +1,68 @@
+/* src/index.css - Estilo Retro Fofo (Tema Azul Pastel) */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  /* IMPORTANTE: Você precisará de um novo fundo que combine com azul! */
+  /* Procure por "cute blue pixel seamless background" ou "pixel cloud pattern" */
+  background-image: url('./assets/images/starblue.gif');
+  background-color: #F0F8FF; /* Cor de fundo atualizada */
+  color: #3A4F66; /* Cor de texto principal atualizada */
+
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+}
+
+.main-container {
+  max-width: 1000px;
+  margin: 25px auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
+  border: 2px solid #a9d8eb;
+  border-radius: 10px;
+  box-shadow: 0 4px 25px rgba(144, 202, 249, 0.4);
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+main {
+  flex: 1;
+}
+
+a {
+  color: #73cbee; /* Cor do link atualizada para lilás */
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+a:hover, a.active {
+  color: #FFD6A5; /* Cor do hover atualizada para pêssego */
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+h1, h2, h3 {
+  color: #63bcdf; /* Cor do título atualizada para o azul pastel */
+  text-shadow: none;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: '✿';
+  color: #63bcdf;
+  margin-right: 8px;
+}
+
+.article-content hr {
+  border: none;
+  height: 2px;
+  background-image: linear-gradient(to right, #A0C4FF, #BDB2FF, #FFD6A5); /* Degradê com as novas cores */
+}
