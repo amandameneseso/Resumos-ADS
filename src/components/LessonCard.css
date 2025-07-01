@@ -1,0 +1,48 @@
+/* src/components/LessonCard.css */
+
+:root {
+    --cor-subtitulos: #d4e7f0;
+    --fundo-caixa: #3d6575;
+    --cor-bordas: #729aaa;
+}
+
+/* --- Estilo Padrão (Tema Claro) --- */
+.lesson-card {
+  flex: 1 1 250px;
+  margin: 5px;
+  padding: 15px;
+  border-image: url(/images/dottedlace3.png) 7 fill round;
+  border-width: 7px;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.lesson-card-title {
+  margin-top: 5px;
+}
+
+.lesson-card p {
+  flex-grow: 1;
+}
+
+/* --- Estilo para o Tema Escuro --- */
+
+html[data-theme='dark'] .lesson-card {
+  border-image: none;
+  border: 1px solid var(--cor-bordas);
+  border-radius: 8px;
+  background-color: var(--fundo-caixa);
+}
+
+html[data-theme='dark'] .lesson-card p {
+  color: var(--cor-subtitulos);
+}
+
+html[data-theme='dark'] .lesson-card-link {
+  color: #fdd9d9;
+}
+
+html[data-theme='dark'] .lesson-card-link:hover {
+  color: #fabbc0;
+}

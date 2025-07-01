@@ -52,6 +52,21 @@ html[data-theme='dark'] strong {
   color: var(--azul-pastel);
 }
 
+html[data-theme='dark'] .sidebar-box {
+  background-color: #22303c;
+  border-image: none;
+  border: 2px solid #264b5a;
+  border-radius: 8px;
+}
+
+html[data-theme='dark'] .sidebar-box a {
+  color: var(--azul-pastel);
+}
+
+html[data-theme='dark'] .sidebar-box ul li::before {
+  color: var(--azul-pastel);
+}
+
 body {
   margin: 0;
   background-attachment: fixed;
@@ -96,10 +111,8 @@ body {
 /* Imagem de topo */
 .img-topo {
   overflow: clip;
-  margin-top: -20px;
-  border-radius: 12px;
+  margin-top: -26px;
   margin-left: 0;
-  border-radius: 8px;
 }
 
 .divider-top {
@@ -191,6 +204,10 @@ h3 {
 
 h2 {
   text-align: center;
+}
+
+h3 {
+  margin-bottom: 10px;
 }
 
 /* Listas */
