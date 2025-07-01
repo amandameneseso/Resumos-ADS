@@ -30,12 +30,12 @@ Para rodar este projeto na sua máquina, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU-USUARIO/NOME-DO-SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-SEU-REPOSITORIO.git)
+    git clone [https://github.com/amandameneseso/Resumos-ADS.git](https://github.com/amandameneseso/Resumos-ADS.git)
     ```
 
 2.  **Navegue até a pasta do projeto:**
     ```bash
-    cd NOME-DO-SEU-REPOSITORIO
+    cd Resumos-ADS
     ```
 
 3.  **Instale as dependências:**
