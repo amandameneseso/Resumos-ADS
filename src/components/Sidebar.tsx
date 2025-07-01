@@ -42,6 +42,14 @@ function Sidebar() {
         </div>
       </div>
 
+      {/* Caixa de Disciplinas */}
+      <div className="sidebar-box">
+        <BoxTitleBar title="Disciplinas" />
+        <div>
+          dicas de estudo
+        </div>
+      </div>
+
     </aside>
   );
 }
