@@ -14,6 +14,44 @@
   --fonte-principal: "Work Sans", sans-serif;
 }
 
+/* Quando o elemento <html> tiver o atributo data-theme="dark" */
+html[data-theme='dark'] {
+  --azul-escuro: #3d6575;
+  --azul-medio: #457b9d;
+  --azul-claro: #729aaa;
+  --azul-pastel: #ebf4f8;
+  --rosa-destaque: #bd6068;
+  --rosa-hover: #ed515e;
+  --fonte-principal: "Work Sans", sans-serif;
+}
+
+html[data-theme='dark'] body {
+  color: var(--azul-escuro);
+  background-color: var(--azul-claro);
+}
+
+html[data-theme='dark'] .content-column {
+  background-color: var(--azul-escuro);
+  border-image: none;
+  border: 2px solid #264b5a;
+  border-radius: 8px;
+}
+
+html[data-theme='dark'] .article-content {
+  color: var(--azul-pastel);
+  border-image: none;
+}
+
+html[data-theme='dark'] h1, 
+html[data-theme='dark'] h2, 
+html[data-theme='dark'] h3 {
+  color: var(--azul-pastel);
+}
+
+html[data-theme='dark'] strong {
+  color: var(--azul-pastel);
+}
+
 body {
   margin: 0;
   background-attachment: fixed;
