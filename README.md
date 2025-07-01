@@ -8,10 +8,11 @@ Este é um site pessoal criado para ser um repositório dos resumos que fiz enqu
 
 ## Funcionalidades
 
+* **Tema Claro e Escuro:** Botão de troca entre temas claro e escuro. A preferência do usuário é salva no navegador e lembrada em futuras visitas.
+* **Calendário:** Uma página de calendário exibe todas as datas de avaliações e trabalhos de todas as disciplinas, com cores diferentes para cada tipo de evento.
 * **Navegação por disciplinas:** Uma sidebar à esquerda permite navegar facilmente entre as diferentes disciplinas do curso.
 * **Resumos de aulas:** Cada aula é apresentada em formato de resumo, com suporte completo a [Markdown](https://www.markdownguide.org/basic-syntax/).
 * **Conteúdo modular:** Os resumos de cada aula são armazenados em arquivos `.md` separados, mantendo o projeto organizado e fácil de atualizar.
-* **Calendário:** Uma página de calendário exibe todas as datas de avaliações e trabalhos de todas as disciplinas, com cores diferentes para cada tipo de evento.
 
 ## Tecnologias utilizadas
 
