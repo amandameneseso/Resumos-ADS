@@ -31,7 +31,7 @@ body {
 /* Layout */
 .page-wrapper {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   max-width: 1000px;
   padding: 0 10px;
   margin: 40px auto;
@@ -119,6 +119,7 @@ body {
   border-radius: 4px;
   margin: 4px 6px;
   transition: 0.3s ease;
+  list-style: none;
 }
 .box-content:hover {
   color: var(--rosa-hover);
@@ -156,7 +157,6 @@ h2 {
 
 /* Listas */
 ul {
-  list-style: none;
   padding-left: 0;
   margin: 0;
 }
