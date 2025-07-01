@@ -30,7 +30,7 @@ Para rodar este projeto na sua máquina, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/amandameneseso/Resumos-ADS.git](https://github.com/amandameneseso/Resumos-ADS.git)
+    git clone [https://github.com/amandameneseso/Resumos-ADS.git]
     ```
 
 2.  **Navegue até a pasta do projeto:**
