@@ -4,7 +4,18 @@ import './HomePage.css';
 function HomePage() {
   return (
     <div>
-      <img className="img-topo" src="images/LaceHeader.gif" alt="" />
+      <div className="divider-top">
+        {/* <img className="img-topo" src="images/83cf3400.png" alt="" /> */}
+        <img className="img-topo" src="images/divider4.png" alt="" />
+        <img className="img-topo" src="images/divider4.png" alt="" />
+        <img className="img-topo" src="images/divider4.png" alt="" />
+        <img className="img-topo" src="images/divider4.png" alt="" />
+        <img className="img-topo" src="images/divider4.png" alt="" />
+        <img className="img-topo" src="images/divider4.png" alt="" />
+        <img className="img-topo" src="images/divider4.png" alt="" />
+        <img className="img-topo" src="images/divider4.png" alt="" />
+      </div>
+
       <h1>Análise e Desenvolvimento de Sistemas</h1>
       {/* <hr /> */}
       <p>Bem-vindo(a)!</p>

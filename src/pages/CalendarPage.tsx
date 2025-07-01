@@ -9,7 +9,18 @@ function CalendarPage() {
 
   return (
     <div className="calendar-container">
-      <h1>Calendário</h1>
+      <div className="divider-top">
+        {/* <img className="img-topo" src="images/83cf3400.png" alt="" /> */}
+        <img className="img-topo" src="images/divider4.png" alt="" />
+        <img className="img-topo" src="images/divider4.png" alt="" />
+        <img className="img-topo" src="images/divider4.png" alt="" />
+        <img className="img-topo" src="images/divider4.png" alt="" />
+        <img className="img-topo" src="images/divider4.png" alt="" />
+        <img className="img-topo" src="images/divider4.png" alt="" />
+        <img className="img-topo" src="images/divider4.png" alt="" />
+        <img className="img-topo" src="images/divider4.png" alt="" />
+      </div>
+      <h1 style={{ borderBottom: 'none' }}>Calendário</h1>
       <p style={{ fontStyle: 'italic', textAlign: 'center' }}>"One day at a time!"</p>
       <hr style={{ border: 'none', borderBottom: '1px solid #BEE1FF', margin: '15px 0' }}/>
       <FullCalendar

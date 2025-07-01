@@ -1,24 +1,24 @@
 /* src/pages/CalendarPage.css */
-.calendar-container {
+/* .calendar-container {
     max-width: 750px;
     margin: 0px auto;
     padding: 20px;
-}
+} */
 
 :root {
   --fc-border-color: #BEE1FF;
   --fc-daygrid-day-bg-color: transparent;
   --fc-daygrid-day-number-color: #3A4F66;
-  --fc-today-bg-color: rgba(160, 196, 255, 0.2);
+  --fc-today-bg-color: #eff8ff;
 
-  --fc-button-bg-color: #A0C4FF;
-  --fc-button-text-color: #1E293B;
-  --fc-button-border-color: #A0C4FF;
-  --fc-button-hover-bg-color: #c1daff;
-  --fc-button-hover-border-color: #c1daff;
+  --fc-button-bg-color: #7cb4ca;
+  --fc-button-text-color: #545d6b;
+  --fc-button-border-color: #7cb4ca;
+  --fc-button-hover-bg-color: #98c8db;
+  --fc-button-hover-border-color: #98c8db;
 
-  --fc-button-active-bg-color: #81A2D6;
-  --fc-button-active-border-color: #81A2D6;
+  --fc-button-active-bg-color: #67a2b9;
+  --fc-button-active-border-color: #67a2b9;
 
   --fc-event-border-color: transparent;
 }

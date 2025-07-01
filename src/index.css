@@ -2,181 +2,178 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-body {
-  margin: 0;
-  /* padding: 20px; */
-  /* background-image: url("./assets/images/starblue.gif"); */
-  background-attachment: fixed;
-  background-color: #f0f8ff;
-  color: #3a4f66; /* Sua cor de texto */
-  font-family: "Work Sans", sans-serif;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&family=Quicksand:wght@600;700&display=swap');
+
+:root {
+  --azul-escuro: #7cb4ca;
+  --azul-medio: #457b9d;
+  --azul-claro: #a9d8eb;
+  --azul-pastel: #effaff;
+  --rosa-destaque: #bd6068;
+  --rosa-hover: #ed515e;
+  --fonte-principal: "Work Sans", sans-serif;
 }
 
-/* Estrutura de layout principal */
+body {
+  margin: 0;
+  background-attachment: fixed;
+  background-color: #e0edf8;
+  color: var(--azul-escuro);
+  /* font-family: var(--fonte-principal); */
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.4;
+  background-image: url(/images/texture_tinygridLIGHT.png);
+  background-repeat: repeat;
+}
+
+/* Layout */
 .page-wrapper {
   display: flex;
-  gap: 15px;
-  max-width: 890px;
-  margin: auto;
+  gap: 20px;
+  max-width: 1000px;
+  padding: 0 10px;
+  margin: 40px auto;
 }
 
 .sidebar-column {
-  /* width: 250px;
+  width: 184px;
   flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 20px; */
-  width: 174px;
-  height: auto;
-  color: #457b9d;
   font-size: 14px;
-  flex-shrink: 0;
-  /* margin-top: 20px; */
-  /* margin-left: 0px; */
-  /* margin-right: 10px; */
 }
 
-/* Estilo para a coluna de conteúdo principal */
+/* Conteúdo principal */
 .content-column {
-  /* flex-grow: 1;
-  background-color: #ffffffcc;
-  border: 1px dotted #a9d8eb;
-  padding: 20px;
-  border-radius: 8px;
-  backdrop-filter: blur(4px); */
-  /* background-repeat: repeat;
-  background-color: #f1faee;
-  border: 1px dashed #457b9d; */
-
-  /* width: 600px; */
-  /* min-height: 100vh; */
-  border-left: 2px dashed #457b9d;
-  border-right: 2px dashed #457b9d;
-  color: #457b9d;
-  background-image: url(/images/texture_tinygridLIGHT.png);
-  background-repeat: repeat;
-  background-color: #f1faee;
-  margin: 0px;
-  padding: 20px;
+  flex-grow: 1;
+  color: #72aac0;
+  padding: 24px;
   padding-bottom: 10px;
-  flex-grow: 1; /* Faz esta coluna crescer e ocupar o espaço restante */
+  box-shadow: 0 4px 20px rgba(173, 216, 230, 0.3);
+  border-image: url(/images/dottedlace3.png) 7 fill round;
+  border-width: 7px;
+  border-style: solid;
 }
 
+/* Imagem de topo */
 .img-topo {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-    margin: -20px;
+  overflow: clip;
+  margin-top: -20px;
+  border-radius: 12px;
+  margin-left: 0;
+  border-radius: 8px;
 }
 
-/* Estilo para as caixinhas da sidebar */
+.divider-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+/* Sidebar */
 .sidebar-box {
-  /* background-color: #ffffffcc; */
-  /* border: 2px solid #a9d8eb; */
-  /* border-radius: 10px; */
-  /* box-shadow: 0 4px 25px rgba(144, 202, 249, 0.4); */
-  /* overflow: hidden; */
-  margin: 20px 0;
-  background-repeat: repeat;
-  background-color: #f1faee;
-  border: 1px dashed #457b9d;
+  margin-bottom: 20px;
+  border: 1px dashed var(--azul-medio);
+  border-radius: 4px;
+  box-shadow: 0 2px 12px rgba(69, 123, 157, 0.1);
+  border-image: url(/images/dottedlace3.png) 7 fill round;
+  border-width: 7px;
+  border-style: solid;
 }
 
+/* Título estilo janela retrô */
 .box-title {
-  /* background-color: #63bcdf;
-  color: #ffffff;
-  padding: 6px 10px;
-  font-weight: 600;
-  font-size: 14px;
   display: flex;
   justify-content: space-between;
-  align-items: center; */
-  width: 164px;
-  height: auto;
-  border: 3px double #a8dadc;
-  background-color: #324867;
-  color: #a8dadc;
-  padding: 4px;
-  letter-spacing: 1px;
-  margin-top: -1px;
-  margin-left: -2px;
-  margin-bottom: 2px;
+  align-items: center;
+  background-color: var(--azul-escuro);
+  color: #f5fcff;
+  padding: 6px 8px;
   font-size: 14px;
   font-weight: bold;
-  font-family: "Dotted";
+  letter-spacing: 1px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  border-radius: 3px 3px 0 0;
 }
 
+/* Simulação de controles de janela */
 .window-controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  /* opacity: 0.6; */
-  color: #a8dadc;
+  color: #f5fcff;
   font-size: 12px;
-  margin: 21px;
-  /* padding: 10px; */
 }
 
+/* Itens da sidebar */
 .box-content {
-  /* padding: 15px; */
-  /* width: 145px; */
-  list-style-type: none;
-  padding: 1.4px;
-  margin: 2px;
-  background-color: rgb(168, 218, 220, 0.5);
-  border: 1px solid #457b9d;
-  text-decoration: none;
-  color: #ad343e;
-  font-size: 13px;
-  text-align: left;
-  padding: 3px;
+  color: var(--rosa-destaque);
+  padding: 6px 10px;
+  /* text-align: left; */
+  border-radius: 4px;
+  margin: 4px 6px;
+  transition: 0.3s ease;
+}
+.box-content:hover {
+  color: var(--rosa-hover);
 }
 
-/* Seus estilos para links e títulos, mantidos exatamente */
+/* Links */
 a {
   text-decoration: none;
   transition: all 0.3s ease;
-  color: #ad343e;
+  color: var(--rosa-destaque);
   font-size: 13px;
 }
 a:hover,
 a.active {
-  color: #ed515e;
+  color: var(--rosa-hover);
   text-decoration: underline;
-  /* text-decoration-style: wavy; */
 }
 
+/* Títulos */
 h1,
 h2,
 h3 {
-  color: #63bcdf;
-  text-shadow: none;
+  color: #46abd3;
   font-weight: 700;
-  border-bottom: 1px solid #a9d8eb; /* Borda usando sua cor */
-  padding-bottom: 10px;
+  border-bottom: 1px solid var(--azul-claro);
+  padding-bottom: 5px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
 }
 
+h2 {
+  text-align: center;
+}
+
+/* Listas */
 ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
-
 li {
   margin-bottom: 10px;
 }
-
-/* Seu estilo inteligente para os ícones da lista! */
 .sidebar-column ul li::before {
   content: "✿";
-  /* color: #63bcdf; */
-  margin-right: 5px;
-  margin-left: 4px;
-  color: #ad343e;
+  margin-right: 6px;
+  color: var(--rosa-destaque);
 }
 
+/* Separadores */
 .article-content hr {
   border: none;
   height: 2px;
-  /* Degradê atualizado com suas cores */
   background-image: linear-gradient(to right, #63bcdf, #73cbee, #a9d8eb);
+  border-radius: 1px;
+  margin: 24px 0;
 }

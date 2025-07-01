@@ -17,7 +17,7 @@ const InfoTable = <T extends object>({ headers, data }: InfoTableProps<T>) => {
       <thead>
         <tr>
           {headers.map((header, index) => (
-            <th key={index} style={{ border: '1px solid #4ccdff', padding: '8px', backgroundColor: '#FFFBFB' }}>
+            <th key={index} style={{ border: '1px solid #72aac075', padding: '8px', backgroundColor: '#72aac015' }}>
               {header}
             </th>
           ))}
@@ -28,7 +28,7 @@ const InfoTable = <T extends object>({ headers, data }: InfoTableProps<T>) => {
           <tr key={rowIndex}>
             {keys.map((key, cellIndex) => (
               // 4. Acessamos item[key] com total segurança de tipos.
-              <td key={cellIndex} style={{ border: '1px solid #4ccdff', padding: '8px' }}>
+              <td key={cellIndex} style={{ border: '1px solid #72aac075', padding: '8px' }}>
                 {String(item[key])}
               </td>
             ))}
