@@ -8,14 +8,15 @@ import CalendarPage from './pages/CalendarPage';
 
 function App() {
   return (
-    <div className="main-container">
+    // Esta nova div vai controlar o layout de duas colunas
+    <div className="page-wrapper">
       <Sidebar />
-      <main>
+      <main className="content-column">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/calendario" element={<CalendarPage />} />
           <Route path="/disciplina/:subjectId" element={<SubjectPage />} />
           <Route path="/disciplina/:subjectId/aula/:lessonId" element={<LessonPage />} />
-          <Route path="/calendario" element={<CalendarPage />} />
         </Routes>
       </main>
     </div>
