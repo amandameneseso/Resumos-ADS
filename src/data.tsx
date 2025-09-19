@@ -6,7 +6,7 @@ export interface Book { name: string; author: string; library: string; }
 export interface Subject { name: string; icon: string; lessons: Lesson[]; assessments: Assessment[]; assignments: Assignment[]; books: Book[]; }
 
 // Isso lê todos os arquivos .md dentro de /content/ e seus subdiretórios
-const lessonContents = import.meta.glob('./content/**/*.md', { as: 'raw', eager: true });
+const lessonContents = import.meta.glob<{ default: string }>('./content/**/*.md', { query: '?raw', eager: true });
 
 const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lessons: Omit<Lesson, 'content'>[] }> = {
   "modulo-introdutorio": {
@@ -16,7 +16,9 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
       { id: 1, title: "Aula 1: Básico de Software", summary: "Introdução aos conceitos de software..." },
       { id: 2, title: "Aula 2: Básico de web e redes de computadores", summary: "Definição de web e redes..." },
       { id: 3, title: "Aula 3: Básico de sistema computacional", summary: "Conceitos básicos de um sistema computacional..." },
-      { id: 4, title: "Aula 4: Básico de componentes de hardware", summary: "Conceitos básicos de componentes de hardware..." }
+      { id: 4, title: "Aula 4: Básico de componentes de hardware", summary: "Conceitos básicos de componentes de hardware..." },
+      { id: 5, title: "Extra: Introdução à Web", summary: "O conceito da World Wide Web, hipertexto e hipermídia..." },
+      { id: 6, title: "Extra: Como a Web funciona?", summary: "Os protocolos e a mecânica por trás da Web..." }
     ],
     assessments: [{ name: "Nenhuma avaliação disponível", date: "" }],
     assignments: [{ name: "Nenhum trabalho disponível", date: "" }],
@@ -31,7 +33,8 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
       { id: 3, title: "Aula 3: Desenvolvimento colaborativo", summary: "Desenvolvimento de sistemas..." },
       { id: 4, title: "Aula 4: Desenvolvimento de site: HTML", summary: "Desenvolvimento de sistemas..." },
       { id: 5, title: "Aula 5: Desenvolvimento de site: CSS", summary: "Desenvolvimento de sistemas..." },
-      { id: 6, title: "Aula 6: Desenvolvimento de site: JavaScript", summary: "Desenvolvimento de sistemas..." }
+      { id: 6, title: "Aula 6: Desenvolvimento de site: JavaScript", summary: "Desenvolvimento de sistemas..." },
+      { id: 6, title: "Extra: A história de como ensinamos máquinas a pensar", summary: "Desenvolvimento de sistemas..." }
     ],
     assessments: [{ name: "APOL 1", date: "07/07/2025"}, {name: "APOL 2", date: "07/07/2025" }],
     assignments: [{ name: "Trabalho Prático 1", date: "07/07/2025" }],
@@ -60,7 +63,7 @@ export const studyData: Record<string, Subject> = Object.entries(subjectsWithout
     const lessonsWithContent = subjectData.lessons.map(lesson => {
       const path = `./content/${subjectId}/${lesson.id}.md`;
       
-      const content = lessonContents[path] || "## Conteúdo não encontrado!\n\nVerifique se o arquivo existe em: " + path;
+    const content = lessonContents[path]?.default || "## Conteúdo não encontrado!\n\nVerifique se o arquivo existe em: " + path;
 
       return {
         ...lesson,
