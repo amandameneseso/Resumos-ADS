@@ -189,27 +189,6 @@ a.active {
   text-decoration: underline;
 }
 
-/* Títulos */
-/* h1, */
-h2,
-h3 {
-  color: #46abd3;
-  font-weight: 700;
-  border-bottom: 1px solid var(--azul-claro);
-  padding-bottom: 5px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  font-family: 'Quicksand', sans-serif;
-}
-
-h2 {
-  text-align: center;
-}
-
-h3 {
-  margin-bottom: 10px;
-}
-
 /* Listas */
 ul {
   padding-left: 0;
