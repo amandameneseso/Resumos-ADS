@@ -165,9 +165,9 @@
   margin-left: auto;
 }
 
-/* html[data-theme='dark'] .sidebar-box a {
-  color: var(--azul-pastel);
-} */
+html[data-theme='dark'] .article-content a {
+  color: var(--azul-pastel); /* cor para tema escuro*/
+}
 
 /* Estilo para a imagem dentro dos botões */
 .nav-button img {

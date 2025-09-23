@@ -34,7 +34,9 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
       { id: 4, title: "Aula 4: Desenvolvimento de site: HTML", summary: "Desenvolvimento de sistemas..." },
       { id: 5, title: "Aula 5: Desenvolvimento de site: CSS", summary: "Desenvolvimento de sistemas..." },
       { id: 6, title: "Aula 6: Desenvolvimento de site: JavaScript", summary: "Desenvolvimento de sistemas..." },
-      { id: 6, title: "Extra: A história de como ensinamos máquinas a pensar", summary: "Desenvolvimento de sistemas..." }
+      { id: 7, title: "Extra: A história de como ensinamos máquinas a pensar", summary: "Desenvolvimento de sistemas..." },
+      { id: 8, title: "Extra: O que é ponto flutuante?", summary: "Desenvolvimento de sistemas..." },
+      { id: 9, title: "Extra: Virtualização e Containerização", summary: "Desenvolvimento de sistemas..." }
     ],
     assessments: [{ name: "APOL 1", date: "07/07/2025"}, {name: "APOL 2", date: "07/07/2025" }],
     assignments: [{ name: "Trabalho Prático 1", date: "07/07/2025" }],
