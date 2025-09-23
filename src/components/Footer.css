@@ -1,0 +1,18 @@
+.footer {
+  margin-top: 0.1em;
+  padding: 0.1em;
+  text-align: end;
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.footer a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+html[data-theme='dark'] p {
+  color: #ffffff;
+}

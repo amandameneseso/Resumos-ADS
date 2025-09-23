@@ -88,6 +88,15 @@ body {
   max-width: 1000px;
   padding: 0 10px;
   margin: 40px auto;
+
+  flex-direction: column; /* coloca os filhos em coluna */
+  min-height: 90vh;      /* garante que ocupe a altura inteira da tela */
+}
+
+.main-area {
+  display: flex;        /* Sidebar + Content lado a lado */
+  flex: 1;              /* ocupa todo o espaço disponível */
+  gap: 10px;
 }
 
 .sidebar-column {
