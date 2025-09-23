@@ -17,7 +17,13 @@ function LessonPage() {
 
   return (
     <div className="article-content">
-      <ReactMarkdown>
+      <ReactMarkdown
+        components={{
+          a: ({...props}) => (
+            <a {...props} target="_blank" rel="noopener noreferrer" />
+          )
+        }}
+      >
         {lesson.content}
       </ReactMarkdown>
     </div>
