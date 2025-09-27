@@ -17,7 +17,8 @@ function HomePage() {
       </div>
 
       <h1>Análise e Desenvolvimento de Sistemas</h1>
-      <hr />
+      {/* <hr /> */}
+      <img className="separador" src="images/notebook-blue.gif" alt="" />
       <div>
         <p>Bem-vindo(a)! ✧</p>
         <p> Este é o meu (nosso) cantinho de estudos de Análise e Desenvolvimento de Sistemas! Aqui você encontra conteúdos organizados por disciplina e questões ao final de cada resumo para facilitar seus estudos. Também fiz um calendário para me ajudar na organização das datas das provas e atividades. Seja bem-vindo(a) e aproveite sua estadia! ദ്ദി(˵ •̀ ᴗ - ˵ ).</p>
