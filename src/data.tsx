@@ -29,14 +29,14 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
     icon: "",
     lessons: [
       { id: 1, title: "Aula 1: Software", summary: "Softwares, programas e sistemas são elementos constantes..." },
-      { id: 2, title: "Aula 2: O profissional de TI e sua atuação", summary: "Desenvolvimento de software..." },
-      { id: 3, title: "Aula 3: Desenvolvimento colaborativo", summary: "Desenvolvimento de sistemas..." },
-      { id: 4, title: "Aula 4: Desenvolvimento de site: HTML", summary: "Desenvolvimento de sistemas..." },
-      { id: 5, title: "Aula 5: Desenvolvimento de site: CSS", summary: "Desenvolvimento de sistemas..." },
-      { id: 6, title: "Aula 6: Desenvolvimento de site: JavaScript", summary: "Desenvolvimento de sistemas..." },
-      { id: 7, title: "Extra: A história de como ensinamos máquinas a pensar", summary: "Desenvolvimento de sistemas..." },
-      { id: 8, title: "Extra: O que é ponto flutuante?", summary: "Desenvolvimento de sistemas..." },
-      { id: 9, title: "Extra: Virtualização e Containerização", summary: "Desenvolvimento de sistemas..." }
+      { id: 2, title: "Aula 2: O profissional de TI e sua atuação", summary: "A Crise do Software é um termo que surgiu..." },
+      { id: 3, title: "Aula 3: Desenvolvimento colaborativo", summary: "O processo de criação de software, também..." },
+      { id: 4, title: "Aula 4: Desenvolvimento de site: HTML", summary: "A internet surgiu no final da década de 1960 com a Arpanet..." },
+      { id: 5, title: "Aula 5: Desenvolvimento de site: CSS", summary: "O CSS (Cascading Style Sheets) é uma tecnologia crucial..." },
+      { id: 6, title: "Aula 6: Desenvolvimento de site: JavaScript", summary: "O JavaScript surgiu em 1995..." },
+      { id: 7, title: "Extra: A história de como ensinamos máquinas a pensar", summary: "Imagine que você tem uma máquina muito obediente..." },
+      { id: 8, title: "Extra: O que é ponto flutuante?", summary: "Ponto flutuante ou vírgula flutuante é um formato de representação..." },
+      { id: 9, title: "Extra: Virtualização e Containerização", summary: "A virtualização consiste em uma máquina física que emula várias máquinas virtuais..." }
     ],
     assessments: [{ name: "APOL 1", date: "07/07/2025"}, {name: "APOL 2", date: "07/07/2025" }],
     assignments: [{ name: "Trabalho Prático 1", date: "07/07/2025" }],
@@ -46,7 +46,7 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
     name: "Fundamentos de Design de Sistemas",
     icon: "",
     lessons: [
-      { id: 1, title: "Aula 1: Linux", summary: "Estudo dos átomos e suas partículas..." },
+      { id: 1, title: "Aula 1: Linux", summary: "Linux é um sistema operacional de código aberto..." },
       { id: 2, title: "Aula 2: Terminal Linux", summary: "Estudo dos átomos e suas partículas..." },
       { id: 3, title: "Aula 3: Controle de versionamento de software (Git)", summary: "Estudo dos átomos e suas partículas..." },
       { id: 4, title: "Aula 4: Arquitetura de Software", summary: "Estudo dos átomos e suas partículas..." },
@@ -54,6 +54,21 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
       { id: 6, title: "Aula 6: Design Digital 2", summary: "Estudo dos átomos e suas partículas..." }
     ],
     assessments: [{ name: "APOL 1", date: "07/07/2025"}, {name: "APOL 2", date: "07/07/2025" }],
+    assignments: [{ name: "Nenhum trabalho disponível", date: "" }],
+    books: [{ name: "Arquitetura de Sistemas", author: "ZENKER, Aline M.", library: "" }, {name: "Experiência do usuário (UX)", author: "STATI, Cesar R; SARMENTO, Camila F.", library: "" }, {name: "Começando com o linux: comandos, serviços e administração", author: "", library: "" }]
+  },
+  "fundamentos-sistemas-informação": {
+    name: "Fundamentos de Sistemas de Informação",
+    icon: "",
+    lessons: [
+      { id: 1, title: "Aula 1: Conceitos Fundamentais de Sistemas de Informação", summary: "Estudo dos átomos e suas partículas..." },
+      { id: 2, title: "Aula 2: Sistemas de Informação nas Organizações", summary: "Estudo dos átomos e suas partículas..." },
+      { id: 3, title: "Aula 3: Infraestrutura e Segurança de Sistemas de Informação", summary: "Estudo dos átomos e suas partículas..." },
+      { id: 4, title: "Aula 4: Sistemas de Gestão e Big Data", summary: "Estudo dos átomos e suas partículas..." },
+      { id: 5, title: "Aula 5: Negócios Eletrônicos e Tendências", summary: "Estudo dos átomos e suas partículas..." },
+      { id: 6, title: "Aula 6: Tendências em Sistemas de Informação", summary: "Estudo dos átomos e suas partículas..." }
+    ],
+    assessments: [{ name: "APOL 1", date: "21/08/2025"}, {name: "APOL 2", date: "21/08/2025" }, {name: "Prova atividade prática", date: "21/08/2025"}, {name: "Prova objetiva", date: "18/09/2025"}],
     assignments: [{ name: "Nenhum trabalho disponível", date: "" }],
     books: [{ name: "Arquitetura de Sistemas", author: "ZENKER, Aline M.", library: "" }, {name: "Experiência do usuário (UX)", author: "STATI, Cesar R; SARMENTO, Camila F.", library: "" }, {name: "Começando com o linux: comandos, serviços e administração", author: "", library: "" }]
   }
