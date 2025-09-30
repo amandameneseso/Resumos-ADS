@@ -47,13 +47,13 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
     icon: "",
     lessons: [
       { id: 1, title: "Aula 1: Linux", summary: "Linux é um sistema operacional de código aberto..." },
-      { id: 2, title: "Aula 2: Terminal Linux", summary: "Estudo dos átomos e suas partículas..." },
-      { id: 3, title: "Aula 3: Controle de versionamento de software (Git)", summary: "Estudo dos átomos e suas partículas..." },
-      { id: 4, title: "Aula 4: Arquitetura de Software", summary: "Estudo dos átomos e suas partículas..." },
-      { id: 5, title: "Aula 5: Design Digital 1", summary: "Estudo dos átomos e suas partículas..." },
-      { id: 6, title: "Aula 6: Design Digital 2", summary: "Estudo dos átomos e suas partículas..." }
+      { id: 2, title: "Aula 2: Terminal Linux", summary: "..." },
+      { id: 3, title: "Aula 3: Controle de versionamento de software (Git)", summary: "..." },
+      { id: 4, title: "Aula 4: Arquitetura de Software", summary: "..." },
+      { id: 5, title: "Aula 5: Design Digital 1", summary: "..." },
+      { id: 6, title: "Aula 6: Design Digital 2", summary: "..." }
     ],
-    assessments: [{ name: "APOL 1", date: "07/07/2025"}, {name: "APOL 2", date: "07/07/2025" }],
+    assessments: [{ name: "APOL 1", date: "07/07/2025"}, {name: "APOL 2", date: "07/07/2025" }, {name: "Prova atividade prática", date: "07/07/2025" }, {name: "Prova objetiva", date: "28/07/2025" }],
     assignments: [{ name: "Nenhum trabalho disponível", date: "" }],
     books: [{ name: "Arquitetura de Sistemas", author: "ZENKER, Aline M.", library: "" }, {name: "Experiência do usuário (UX)", author: "STATI, Cesar R; SARMENTO, Camila F.", library: "" }, {name: "Começando com o linux: comandos, serviços e administração", author: "", library: "" }]
   },
@@ -61,12 +61,12 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
     name: "Fundamentos de Sistemas de Informação",
     icon: "",
     lessons: [
-      { id: 1, title: "Aula 1: Conceitos Fundamentais de Sistemas de Informação", summary: "Estudo dos átomos e suas partículas..." },
-      { id: 2, title: "Aula 2: Sistemas de Informação nas Organizações", summary: "Estudo dos átomos e suas partículas..." },
-      { id: 3, title: "Aula 3: Infraestrutura e Segurança de Sistemas de Informação", summary: "Estudo dos átomos e suas partículas..." },
-      { id: 4, title: "Aula 4: Sistemas de Gestão e Big Data", summary: "Estudo dos átomos e suas partículas..." },
-      { id: 5, title: "Aula 5: Negócios Eletrônicos e Tendências", summary: "Estudo dos átomos e suas partículas..." },
-      { id: 6, title: "Aula 6: Tendências em Sistemas de Informação", summary: "Estudo dos átomos e suas partículas..." }
+      { id: 1, title: "Aula 1: Conceitos Fundamentais de Sistemas de Informação", summary: "..." },
+      { id: 2, title: "Aula 2: Sistemas de Informação nas Organizações", summary: "..." },
+      { id: 3, title: "Aula 3: Infraestrutura e Segurança de Sistemas de Informação", summary: "..." },
+      { id: 4, title: "Aula 4: Sistemas de Gestão e Big Data", summary: "..." },
+      { id: 5, title: "Aula 5: Negócios Eletrônicos e Tendências", summary: "..." },
+      { id: 6, title: "Aula 6: Tendências em Sistemas de Informação", summary: "..." }
     ],
     assessments: [{ name: "APOL 1", date: "21/08/2025"}, {name: "APOL 2", date: "21/08/2025" }, {name: "Prova atividade prática", date: "21/08/2025"}, {name: "Prova objetiva", date: "18/09/2025"}],
     assignments: [{ name: "Nenhum trabalho disponível", date: "" }],
