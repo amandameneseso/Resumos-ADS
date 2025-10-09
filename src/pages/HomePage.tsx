@@ -17,11 +17,10 @@ function HomePage() {
       </div>
 
       <h1>Análise e Desenvolvimento de Sistemas</h1>
-      {/* <hr /> */}
-      <img className="separador" src="images/notebook-blue.gif" alt="" />
+      <hr />
       <div>
         <p>Bem-vindo(a)! ✧</p>
-        <p> Este é o meu (nosso) cantinho de estudos de Análise e Desenvolvimento de Sistemas! Aqui você encontra conteúdos organizados por disciplina e questões ao final de cada resumo para facilitar seus estudos. Também fiz um calendário para me ajudar na organização das datas das provas e atividades. Seja bem-vindo(a) e aproveite sua estadia! ദ്ദി(˵ •̀ ᴗ - ˵ ).</p>
+        <p> Este é o meu (nosso) cantinho de estudos de Análise e Desenvolvimento de Sistemas! Fiz esse site com o intuito de servir como um repositório dos resumos que fiz durante os estudos. Aqui você encontra conteúdos organizados por disciplina e questões ao final de cada resumo para facilitar seus estudos. Também fiz um calendário para me ajudar na organização das datas das provas e atividades. Seja bem-vindo(a) e aproveite sua estadia! ദ്ദി(˵ •̀ ᴗ - ˵ ).</p>
         <div className="quote">
          <p>“O sucesso é a soma de pequenos esforços repetidos dia após dia.”</p>
          <img className="img-topo" src="images/pen_4.gif" alt="" />
@@ -44,7 +43,7 @@ function HomePage() {
             <li>separe a garrafa de água e beba pelo menos 3x ao dia</li>
             <li>coloque sua playlist de estudos preferida</li>
             <li>limpe toda sua mesa/local de estudo</li>
-            <li>Use as questões ao final de cada aula como revisão</li>
+            <li>use as questões ao final de cada aula como revisão</li>
           </ul>
         </div>
       </div>

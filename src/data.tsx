@@ -47,11 +47,11 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
     icon: "",
     lessons: [
       { id: 1, title: "Aula 1: Linux", summary: "Linux é um sistema operacional de código aberto..." },
-      { id: 2, title: "Aula 2: Terminal Linux", summary: "..." },
-      { id: 3, title: "Aula 3: Controle de versionamento de software (Git)", summary: "..." },
-      { id: 4, title: "Aula 4: Arquitetura de Software", summary: "..." },
-      { id: 5, title: "Aula 5: Design Digital 1", summary: "..." },
-      { id: 6, title: "Aula 6: Design Digital 2", summary: "..." }
+      { id: 2, title: "Aula 2: Terminal Linux", summary: "O Linux e o Windows organizam arquivos de maneiras distintas..." },
+      { id: 3, title: "Aula 3: Controle de versionamento de software (Git)", summary: "O controle de versão é uma prática fundamental para documentos..." },
+      { id: 4, title: "Aula 4: Arquitetura de Software", summary: "A Arquitetura de Software é definida como a estrutura fundamental..." },
+      { id: 5, title: "Aula 5: Design Digital 1", summary: "O desenvolvimento de software é um empreendimento multidisciplinar..." },
+      { id: 6, title: "Aula 6: Design Digital 2", summary: "A Arquitetura da Informação é definida pelo Information Architecture Institute..." }
     ],
     assessments: [{ name: "APOL 1", date: "07/07/2025"}, {name: "APOL 2", date: "07/07/2025" }, {name: "Prova atividade prática", date: "07/07/2025" }, {name: "Prova objetiva", date: "28/07/2025" }],
     assignments: [{ name: "Nenhum trabalho disponível", date: "" }],
