@@ -63,7 +63,7 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
     lessons: [
       { id: 1, title: "Aula 1: Conceitos Fundamentais de Sistemas de Informação", summary: "Os sistemas de informação (SI) têm exercido uma profunda influência..." },
       { id: 2, title: "Aula 2: Sistemas de Informação nas Organizações", summary: "Sistema de informação pode ser definido como um conjunto integrado..." },
-      { id: 3, title: "Aula 3: Infraestrutura e Segurança de Sistemas de Informação", summary: "..." },
+      { id: 3, title: "Aula 3: Infraestrutura e Segurança de Sistemas de Informação", summary: "Com a ubiquidade dos dispositivos digitais nos negócios, a segurança..." },
       { id: 4, title: "Aula 4: Sistemas de Gestão e Big Data", summary: "..." },
       { id: 5, title: "Aula 5: Negócios Eletrônicos e Tendências", summary: "..." },
       { id: 6, title: "Aula 6: Tendências em Sistemas de Informação", summary: "..." }
