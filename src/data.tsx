@@ -65,7 +65,7 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
       { id: 2, title: "Aula 2: Sistemas de Informação nas Organizações", summary: "Sistema de informação pode ser definido como um conjunto integrado..." },
       { id: 3, title: "Aula 3: Infraestrutura e Segurança de Sistemas de Informação", summary: "Com a ubiquidade dos dispositivos digitais nos negócios, a segurança..." },
       { id: 4, title: "Aula 4: Sistemas de Gestão e Big Data", summary: "Um sistema de gestão descreve como as empresas se organizam em suas..." },
-      { id: 5, title: "Aula 5: Negócios Eletrônicos e Tendências", summary: "..." },
+      { id: 5, title: "Aula 5: Negócios Eletrônicos e Tendências", summary: "Negócios eletrônicos (e-business) pode ser compreendido como a..." },
       { id: 6, title: "Aula 6: Tendências em Sistemas de Informação", summary: "..." }
     ],
     assessments: [{ name: "APOL 1", date: "21/08/2025"}, {name: "APOL 2", date: "21/08/2025" }, {name: "Prova atividade prática", date: "21/08/2025"}, {name: "Prova objetiva", date: "18/09/2025"}],
