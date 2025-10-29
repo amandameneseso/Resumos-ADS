@@ -71,6 +71,21 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
     assessments: [{ name: "APOL 1", date: "21/08/2025"}, {name: "APOL 2", date: "21/08/2025" }, {name: "Prova atividade prática", date: "21/08/2025"}, {name: "Prova objetiva", date: "18/09/2025"}],
     assignments: [{ name: "Nenhum trabalho disponível", date: "" }],
     books: [{ name: "Arquitetura de Sistemas", author: "ZENKER, Aline M.", library: "" }, {name: "Experiência do usuário (UX)", author: "STATI, Cesar R; SARMENTO, Camila F.", library: "" }, {name: "Começando com o linux: comandos, serviços e administração", author: "", library: "" }]
+  },
+  "logica-programacao": {
+    name: "Lógica de Programação e Algoritmos",
+    icon: "",
+    lessons: [
+      { id: 1, title: "Aula 1: Introdução à Lógica e Algoritmos", summary: "A palavra lógica tem origem grega (do termo logos) e significa..." },
+      { id: 2, title: "Aula 2: Algoritmos: Variáveis", summary: "..." },
+      { id: 3, title: "Aula 3: Algoritmos: Estruturas de Decisão", summary: "..." },
+      { id: 4, title: "Aula 4: Estruturas de Repetição", summary: "..." },
+      { id: 5, title: "Aula 5: Funções", summary: "..." },
+      { id: 6, title: "Aula 6: Tuplas, Listas, Dicionários e Strings", summary: "..." }
+    ],
+    assessments: [{ name: "APOL 1", date: "21/08/2025"}, {name: "APOL 2", date: "21/08/2025" }, {name: "Prova atividade prática", date: "21/08/2025"}, {name: "Prova objetiva", date: "18/09/2025"}],
+    assignments: [{ name: "Nenhum trabalho disponível", date: "" }],
+    books: [{ name: "Arquitetura de Sistemas", author: "ZENKER, Aline M.", library: "" }, {name: "Experiência do usuário (UX)", author: "STATI, Cesar R; SARMENTO, Camila F.", library: "" }, {name: "Começando com o linux: comandos, serviços e administração", author: "", library: "" }]
   }
 };
 
