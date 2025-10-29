@@ -79,7 +79,7 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
       { id: 1, title: "Aula 1: Introdução à Lógica e Algoritmos", summary: "A palavra lógica tem origem grega (do termo logos) e significa..." },
       { id: 2, title: "Aula 2: Variáveis", summary: "Um algoritmo, e consequentemente todo programa computacional, é um..." },
       { id: 3, title: "Aula 3: Algoritmos: Estruturas de Decisão", summary: "Algoritmos sequenciais são definidos como algoritmos onde todas as instruções..." },
-      { id: 4, title: "Aula 4: Estruturas de Repetição", summary: "..." },
+      { id: 4, title: "Aula 4: Estruturas de Repetição", summary: "Um dos desafios comuns na programação é a repetição de tarefas..." },
       { id: 5, title: "Aula 5: Funções", summary: "..." },
       { id: 6, title: "Aula 6: Tuplas, Listas, Dicionários e Strings", summary: "..." }
     ],
