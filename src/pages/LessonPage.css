@@ -1,7 +1,7 @@
 /* src/pages/LessonPage.css */
 
 .article-content {
-  max-width: 720px;
+  max-width:780px;
   margin: auto;
   font-family: 'Work Sans', sans-serif; /* Consistência com o resto do site */
   line-height: 1.6; /* Mais espaço entre as linhas */
@@ -183,3 +183,27 @@ html[data-theme='dark'] .article-content a {
 .next-button img {
   margin-left: 10px;
 }
+
+/* tabela */
+.article-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+  background-color: #f4fafd;
+  border: 1px solid #89deff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.article-content th,
+.article-content td {
+  border: 1px solid #89deff;
+  padding: 4px;
+}
+
+.article-content th {
+  background-color: #dff7ff;
+  font-weight: bold;
+  text-align: center;
+}
+
