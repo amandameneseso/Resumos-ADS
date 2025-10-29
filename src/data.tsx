@@ -55,7 +55,7 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
     ],
     assessments: [{ name: "APOL 1", date: "07/07/2025"}, {name: "APOL 2", date: "07/07/2025" }, {name: "Prova atividade prática", date: "07/07/2025" }, {name: "Prova objetiva", date: "28/07/2025" }],
     assignments: [{ name: "Nenhum trabalho disponível", date: "" }],
-    books: [{ name: "Arquitetura de Sistemas", author: "ZENKER, Aline M.", library: "" }, {name: "Experiência do usuário (UX)", author: "STATI, Cesar R; SARMENTO, Camila F.", library: "" }, {name: "Começando com o linux: comandos, serviços e administração", author: "", library: "" }]
+    books: [{ name: "Arquitetura de Sistemas Operacionais", author: "MACHADO, Francis B.", library: "" }, {name: "Sistemas Operacionais Modernos", author: "TANENBAUM, Andrew S.", library: "" }]
   },
   "fundamentos-sistemas-informação": {
     name: "Fundamentos de Sistemas de Informação",
@@ -70,7 +70,7 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
     ],
     assessments: [{ name: "APOL 1", date: "21/08/2025"}, {name: "APOL 2", date: "21/08/2025" }, {name: "Prova atividade prática", date: "21/08/2025"}, {name: "Prova objetiva", date: "18/09/2025"}],
     assignments: [{ name: "Nenhum trabalho disponível", date: "" }],
-    books: [{ name: "Arquitetura de Sistemas", author: "ZENKER, Aline M.", library: "" }, {name: "Experiência do usuário (UX)", author: "STATI, Cesar R; SARMENTO, Camila F.", library: "" }, {name: "Começando com o linux: comandos, serviços e administração", author: "", library: "" }]
+    books: [{ name: "Sistemas de Informação Gerenciais: administrando a empresa digital", author: "LAUDON, Kenneth Craig.", library: "" }, {name: "Sistemas de Informações Gerenciais na Atualidade", author: "ELEUTERIO, Marcos A. M.", library: "" }]
   },
   "logica-programacao": {
     name: "Lógica de Programação e Algoritmos",
@@ -83,9 +83,9 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
       { id: 5, title: "Aula 5: Funções", summary: "Ao longo desta etapa você irá aprender um recurso bastante utilizado..." },
       { id: 6, title: "Aula 6: Tuplas, Listas, Dicionários e Strings", summary: "Ao longo desta abordagem, vamos aprender a trabalhar com variáveis compostas..." }
     ],
-    assessments: [{ name: "APOL 1", date: "21/08/2025"}, {name: "APOL 2", date: "21/08/2025" }, {name: "Prova atividade prática", date: "21/08/2025"}, {name: "Prova objetiva", date: "18/09/2025"}],
-    assignments: [{ name: "Nenhum trabalho disponível", date: "" }],
-    books: [{ name: "Arquitetura de Sistemas", author: "ZENKER, Aline M.", library: "" }, {name: "Experiência do usuário (UX)", author: "STATI, Cesar R; SARMENTO, Camila F.", library: "" }, {name: "Começando com o linux: comandos, serviços e administração", author: "", library: "" }]
+    assessments: [{ name: "APOL 1", date: "01/09/2025"}, {name: "APOL 2", date: "01/09/2025" }, {name: "Prova objetiva", date: "18/09/2025"}],
+    assignments: [{ name: "Trabalho prático", date: "01/09/2025" }],
+    books: [{ name: "Python 3 - Conceitos e Aplicações: Uma abordagem didática", author: "BANIN, Sérgio L.", library: "" }, {name: "Lógica de Programação: A construção de algoritmos e estruturas de dados com aplicações em Python", author: "FORBELLONE, André Luiz Villar", library: "" }, {name: "Lógica para Desenvolvimento de Programação de Computadores", author: "MANZANO, José Augusto Navarro G.", library: "" }]
   }
 };
 
