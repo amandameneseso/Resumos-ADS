@@ -34,19 +34,23 @@ function HomePage() {
           <ul>
             <p>23-09-2025: Resumos adicionados em Fundamentos de Desenvolvimento de Software.</p>
             <p>27-09-2025: Atualização no layout da home.</p>
+            <p>29-10-2025: Adicionada disciplina de Lógica de Programação e Algoritmos.</p>
           </ul>
         </div>
 
         <div className="section">
           <h2>Dicas de estudo</h2>
           <ul>
-            <li>separe a garrafa de água e beba pelo menos 3x ao dia</li>
-            <li>coloque sua playlist de estudos preferida</li>
-            <li>limpe toda sua mesa/local de estudo</li>
-            <li>use as questões ao final de cada aula como revisão</li>
+            <li>Separe a garrafa de água e beba pelo menos 3x ao dia;</li>
+            <li>Coloque sua playlist de estudos preferida;</li>
+            <li>Limpe toda sua mesa/local de estudo;</li>
+            <li>Use as questões ao final de cada aula como revisão.</li>
           </ul>
         </div>
       </div>
+      <br />
+      <br />
+      <em>"O conhecimento que adquirimos não merece ficar parado. Compartilhar tudo o que sabemos e gerar valor na vida de outras pessoas pode ter efeitos incríveis. Viver em constante compartilhamento de informações ajuda nossa comunidade profissional a evoluir cada vez mais."</em>
     </div>
   );
 }
