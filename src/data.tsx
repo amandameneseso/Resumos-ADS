@@ -77,7 +77,7 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
     icon: "",
     lessons: [
       { id: 1, title: "Aula 1: Introdução à Lógica e Algoritmos", summary: "A palavra lógica tem origem grega (do termo logos) e significa..." },
-      { id: 2, title: "Aula 2: Algoritmos: Variáveis", summary: "..." },
+      { id: 2, title: "Aula 2: Algoritmos: Variáveis", summary: "Um algoritmo, e consequentemente todo programa computacional, é um..." },
       { id: 3, title: "Aula 3: Algoritmos: Estruturas de Decisão", summary: "..." },
       { id: 4, title: "Aula 4: Estruturas de Repetição", summary: "..." },
       { id: 5, title: "Aula 5: Funções", summary: "..." },
