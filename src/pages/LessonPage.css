@@ -188,21 +188,21 @@ html[data-theme='dark'] .article-content a {
 .article-content table {
   border-collapse: collapse;
   width: 100%;
-  margin: 1em 0;
-  background-color: #f4fafd;
-  border: 1px solid #89deff;
-  border-radius: 10px;
+  margin: 1.5em 0;
+  background-color: #f7fcff;
+  border: 1px solid #f4fafd;
+  /* border-radius: 10px; */
   overflow: hidden;
 }
 
 .article-content th,
 .article-content td {
-  border: 1px solid #89deff;
+  border: 1px solid #79c2df;
   padding: 4px;
 }
 
 .article-content th {
-  background-color: #dff7ff;
+  background-color: #dbecf5;
   font-weight: bold;
   text-align: center;
 }
