@@ -34,7 +34,8 @@ function HomePage() {
           <ul>
             <p>23-09-2025: Resumos adicionados em Fundamentos de Desenvolvimento de Software.</p>
             <p>27-09-2025: Atualização no layout da home.</p>
-            <p>29-10-2025: Adicionada disciplina de Lógica de Programação e Algoritmos.</p>
+            <p>29-10-2025: Adicionada a disciplina de Lógica de Programação e Algoritmos.</p>
+            <p>30-10-2025: Adicionada a disciplina de Design de Interação.</p>
           </ul>
         </div>
 
