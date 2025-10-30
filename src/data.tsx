@@ -92,7 +92,7 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
     icon: "",
     lessons: [
       { id: 1, title: "1: Conceitos Iniciais", summary: "Antes do desenvolvimento de qualquer produto, incluindo software, é crucial..." },
-      { id: 2, title: "2: Psicologia Cognitiva", summary: "..." },
+      { id: 2, title: "2: Psicologia Cognitiva", summary: "A psicologia cognitiva estuda os processos envolvidos em dar sentido..." },
       { id: 3, title: "3: Compreender o Usuário e Desenvolver Ideias", summary: "..." },
       { id: 4, title: "4: Layouts", summary: "..." },
       { id: 5, title: "5: Ergonomia de Elementos", summary: "..." },
