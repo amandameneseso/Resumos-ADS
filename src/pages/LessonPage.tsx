@@ -2,6 +2,8 @@
 import { useParams, Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math'; 
+import rehypeKatex from 'rehype-katex';
 import { studyData } from "../data";
 import "./LessonPage.css";
 
@@ -56,7 +58,8 @@ function LessonPage() {
       </div>
 
       <ReactMarkdown
-        remarkPlugins={[remarkGfm]} // <-- Adicione esta linha!
+        remarkPlugins={[remarkGfm, remarkMath]}
+        rehypePlugins={[rehypeKatex]}
         components={{
           a: ({ ...props }) => (
             <a {...props} target="_blank" rel="noopener noreferrer" />

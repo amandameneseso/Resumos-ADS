@@ -94,9 +94,9 @@ const subjectsWithoutContent: Record<string, Omit<Subject, 'lessons'> & { lesson
       { id: 1, title: "1: Conceitos Iniciais", summary: "Antes do desenvolvimento de qualquer produto, incluindo software, é crucial..." },
       { id: 2, title: "2: Psicologia Cognitiva", summary: "A psicologia cognitiva estuda os processos envolvidos em dar sentido..." },
       { id: 3, title: "3: Compreender o Usuário e Desenvolver Ideias", summary: "Esta aula é dedicada ao design para dispositivos móveis, com foco principal..." },
-      { id: 4, title: "4: Layouts", summary: "..." },
-      { id: 5, title: "5: Ergonomia de Elementos", summary: "..." },
-      { id: 6, title: "6: Prototipação", summary: "..." }
+      { id: 4, title: "4: Layouts", summary: "A história do layout web começa com Tim Berners-Lee, inventor da web..." },
+      { id: 5, title: "5: Ergonomia de Elementos", summary: "Esta aula trata do design para dispositivos móveis e concentra-se nas orientações..." },
+      { id: 6, title: "6: Prototipação", summary: "Antes da fase de desenvolvimento de um aplicativo, é fundamental elaborar o..." }
     ],
     assessments: [{ name: "APOL 1", date: "20/10/2025"}, {name: "APOL 2", date: "20/10/2025" }, {name: "Prova objetiva", date: "10/11/2025"}],
     assignments: [{ name: "Trabalho prático", date: "20/10/2025" }],
